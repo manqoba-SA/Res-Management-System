@@ -1,0 +1,15 @@
+/* Welcome Page */
+.sec-about {
+  height: 100vh;
+  margin-top: 50px;
+}
+.welcome-icons {
+  margin-top: 25px !important;
+}
+.welcome-icons div h4 {
+  color: #2c4975;
+  font-weight: bold;
+}
+.uj {
+  color: #e65300;
+}

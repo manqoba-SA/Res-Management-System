@@ -1,0 +1,35 @@
+.headline {
+  left: 130px;
+  position: relative;
+}
+.clipped {
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+}
+@media screen and (max-width: 650px) {
+  .headline {
+    left: 20px;
+  }
+  .clipped {
+    clip-path: none;
+    max-height: 300px !important;
+  }
+}
+
+.apply-now {
+  height: 100vh;
+}
+
+.text-header {
+  color: #2c4975;
+}
+
+.apply-btn {
+  background-color: #2c4975 !important;
+}
+
+.background-photo {
+  min-height: 350px;
+  background-image: url(../../images/gal_12.jpg);
+  background-position: center;
+  background-size: cover;
+}
